@@ -31,6 +31,6 @@ const experience = 'Education and Work';
 const projectsContributions = 'Projects and Contributions';
 const viewCode = 'View Code';
 const contact = "Let's chat!";
-const footer = 'Designed and developed by Name with code and coffee';
+const footer = 'Muhammad Rizki, 2024 - All right reserved';
 
 export { navBar, greetings, pronoun, description, aboutMe, mySkills, experience, location, projectsContributions, viewCode, contact, footer };
