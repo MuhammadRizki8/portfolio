@@ -1,5 +1,7 @@
 import lenderup from '../assets/projects/lenderup.png';
 import minatku from '../assets/projects/minatku.png';
+import sma13 from '../assets/projects/sma13.png';
+import donasi from '../assets/projects/donasi.png';
 
 const projects = [
   {
@@ -17,6 +19,22 @@ const projects = [
     link: 'https://github.com/MuhammadRizki8/LenderUp',
     roles: ['Backend Developer', 'UI/UX Research', 'Flutter Developer'],
     techStack: ['Flutter', 'FastAPI', 'SQLite', 'Figma'],
+  },
+  {
+    name: 'Donasi Mahasiswa',
+    img: donasi,
+    description: '"Peduli Mahasiswa" student donation website application using WordPress and TriPay payment gateway',
+    link: 'https://github.com/MuhammadRizki8/Website-Donasi-Peduli-Mahasiswa',
+    roles: ['Wordpress Developer'],
+    techStack: ['Wordpress', 'Payment Gateway', 'Woocommerce'],
+  },
+  {
+    name: 'Website Profile of SMA 13 Bandung',
+    img: sma13,
+    description: 'high school profile website in Bandung, West Java using php framework, Laravel.',
+    link: 'https://github.com/MuhammadRizki8/laravel-school-profile',
+    roles: ['Web Developer'],
+    techStack: ['Laravel', 'MySQL'],
   },
 ];
 

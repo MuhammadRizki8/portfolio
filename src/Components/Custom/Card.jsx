@@ -8,7 +8,7 @@ function Card({ name, img, description, link, roles, techStack }) {
   return (
     <div className="w-full shadow-lg bg-[#1f2945] p-6 rounded-lg flex flex-col items-center h-[600px] transition-transform transform hover:scale-105 duration-300 ease-in-out">
       <div className="h-110 overflow-hidden flex flex-col items-center justify-start">
-        <img src={img} className="w-full h-1/3 object-contain rounded-t-lg pb-4 transition-transform transform hover:scale-110 duration-300 ease-in-out" alt={`${name} project`} />
+        <img src={img} className="w-full h-2/5 object-contain rounded-t-lg pb-4 transition-transform transform hover:scale-110 duration-300 ease-in-out" alt={`${name} project`} />
         <div className="text-lg font-semibold pb-2 text-[#37BCF8] text-center">{name}</div>
         <div className="w-11/12 h-1/2 overflow-y-auto leading-loose text-sm mx-auto pb-2 text-gray-300 text-justify">{description}</div>
         {roles && (
