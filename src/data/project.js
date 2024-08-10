@@ -1,4 +1,4 @@
-import project from '../assets/projects/project.svg';
+import lenderup from '../assets/projects/lenderup.png';
 import minatku from '../assets/projects/minatku.png';
 
 const projects = [
@@ -11,13 +11,12 @@ const projects = [
     techStack: ['Python', 'FastAPI', 'GCP', 'TensorFlow', 'Android'],
   },
   {
-    name: 'Lorem Ipsum',
-    img: project,
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum',
-    link: 'https://github.com',
-    roles: ['Backend Developer: Implemented server-side logic and APIs.', 'Project Manager: Coordinated the project timeline and tasks.'],
-    techStack: ['JavaScript', 'Node.js', 'Express', 'MongoDB'],
+    name: 'LenderUp',
+    img: lenderup,
+    description: 'A peer-to-peer (P2P) lending mobile application that connects borrowers and lenders to conduct transactions. This application focuses on funding MSMEs to advance the middle to lower economy.',
+    link: 'https://github.com/MuhammadRizki8/LenderUp',
+    roles: ['Backend Developer', 'UI/UX Research', 'Flutter Developer'],
+    techStack: ['Flutter', 'FastAPI', 'SQLite', 'Figma'],
   },
 ];
 
